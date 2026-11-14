@@ -15,7 +15,6 @@ name                     : &name "Junteng Liu"
 description              : &description "Junteng Liu's academic portfolio"
 url                      : https://spadonidittrichmt848-ops.github.io # The base hostname & protocol for your site
 baseurl                  : "/LJT-Homepage" # the subpath of your site
-template_url             : # legacy setting
 repository               : "spadonidittrichmt848-ops/LJT-Homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -326,8 +325,6 @@ whitelist:
 
 # Archives
 #  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~>
-#  - Jekyll Archives plugin archive pages ~>
 category_archive:
   type: liquid
   path: /categories/
